@@ -1,0 +1,6 @@
+# Add back some hieradata fixtures at spec/fixtures/hieradata/environment.yaml
+# Software Versions
+chocolatey::version: '0.10.15'
+chocolatey::versionext: '2.0.2'
+chocolatey::source: "%{lookup('artifactory_nuget_url')}"
+chocolatey::choco_install_location: 'c:\local_folder'
