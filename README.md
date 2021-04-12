@@ -60,7 +60,7 @@ make usechocolatey_NEW
 
 - To Use a newer and modded version (NEW version : chocolatey main @ https://github.com/puppetlabs/puppetlabs-chocolatey )
 ```
-make usechocolatey_NEWMODDED
+make usechocolatey_MODDED
 ```
 
 
@@ -105,5 +105,5 @@ make usechocolatey_ORG  usechocolateyDefaultFactsORG unittest_puppet5_5
 - To Apply all the mods and fixes  and run unit test as Puppet 5.5
 
 ```
-make usechocolatey_NEWMODDED  usechocolateyDefaultFactsMODDED unittest_puppet5_5
+make usechocolatey_MODDED  usechocolateyDefaultFactsMODDED unittest_puppet5_5
 ```
