@@ -49,9 +49,9 @@ usechocolatey_MODDED:
 
 	
 	
-usechocolateyDefaultFactsORG:
+usechocolateyDefaultFacts_ORG:
 	cp -f spec/default_facts.yml_ORG spec/default_facts.yml
 
-usechocolateyDefaultFactsMODDED:
+usechocolateyDefaultFacts_MODDED:
 	cp -f spec/default_facts.yml_MODDED spec/default_facts.yml
 	

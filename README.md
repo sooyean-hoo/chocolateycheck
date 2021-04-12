@@ -55,13 +55,13 @@ Run the following in the Non-Windows machine to see the error.
 ### To SEE THE ERROR ON A NON-WINDOWS MACHINE
 
 ```
-make usechocolatey_ORG  usechocolateyDefaultFactsORG unittest_puppet5_5
+make usechocolatey_ORG  usechocolateyDefaultFacts_ORG unittest_puppet5_5
 ```
 
 ### To Reset all the mods and the version (Older version : chocolatey 4.0.0 )
 
 ```
-make usechocolatey_ORG  usechocolateyDefaultFactsORG
+make usechocolatey_ORG  usechocolateyDefaultFacts_ORG
 ```
 
 
@@ -87,12 +87,12 @@ make usechocolatey_MODDED
 ### To Apply Fix
 - To Reset to original Facts
 ```
-make usechocolateyDefaultFactsORG
+make usechocolateyDefaultFacts_ORG
 ```
 
 - To Apply fixes via Facts
 ```
-make usechocolateyDefaultFactsMODDED
+make usechocolateyDefaultFacts_MODDED
 ```
 
 
@@ -117,7 +117,7 @@ make unittest_puppet5_5
 - To Reset all the mods and the version (Older version : chocolatey 4.0.0 ) and run unit test as Puppet 5.5
 
 ```
-make usechocolatey_ORG  usechocolateyDefaultFactsORG unittest_puppet5_5
+make usechocolatey_ORG  usechocolateyDefaultFacts_ORG unittest_puppet5_5
 ```
 
 
@@ -125,5 +125,5 @@ make usechocolatey_ORG  usechocolateyDefaultFactsORG unittest_puppet5_5
 - To Apply all the mods and fixes  and run unit test as Puppet 5.5
 
 ```
-make usechocolatey_MODDED  usechocolateyDefaultFactsMODDED unittest_puppet5_5
+make usechocolatey_MODDED  usechocolateyDefaultFacts_MODDED unittest_puppet5_5
 ```
