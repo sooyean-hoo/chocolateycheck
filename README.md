@@ -22,16 +22,28 @@ Beside using the error from chocolatey here. One can isolate the error happening
 the big project here, hence staying focused on 1 problem at a time. The offending code
 from the big project can be duplicated to here as a file or a snippets.
 
+- Related Tickets
+
+  [ https://github.com/dylanratcliffe/onceover/issues/287 ]()
+
+  [ https://github.com/rodjek/rspec-puppet/issues/6911 ]()
+
+  Main Ticket which seems to address or fix the problem. [ https://tickets.puppetlabs.com/browse/MODULES-10638 ]()
+
+  The Git Pull which seems to address or fix the problem and introduce the code into the
+  main branch. [ https://github.com/puppetlabs/puppetlabs-chocolatey/pull/254 ]()
+
+
 ## Setup
 
 Although the original error was discovered via onceover. It is relying on PDK unit
 aka rspec. To reduce the amount of overhead, we simulate the error on from the PDK
-Unit Test level. Hence only PDK is needed to install. You check using
+Unit Test level. Hence only PDK is needed to install. You check for pdk using
 ```
 pdk --version
 ```
 
-You can also duplicated error by copying the file or code snippents from your original
+You can also duplicated error by copying the file or code snippets from your original
 code into the manifest folder or the init.pp respectively. There is already a erroneous
 sample chocolatey code at play in [init.pp](manifests/init.pp) .
 
@@ -40,10 +52,18 @@ sample chocolatey code at play in [init.pp](manifests/init.pp) .
 Once the erroneous codes are in place, we can start our test or simulation.
 Run the following in the Non-Windows machine to see the error.
 
+### To SEE THE ERROR ON A NON-WINDOWS MACHINE
+
+```
+make usechocolatey_ORG  usechocolateyDefaultFactsORG unittest_puppet5_5
+```
+
 ### To Reset all the mods and the version (Older version : chocolatey 4.0.0 )
+
 ```
 make usechocolatey_ORG  usechocolateyDefaultFactsORG
 ```
+
 
 
 ### Chocolatey version
