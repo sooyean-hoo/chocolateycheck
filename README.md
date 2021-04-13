@@ -24,14 +24,14 @@ from the big project can be duplicated to here as a file or a snippets.
 
 - Related Tickets
 
-  [ https://github.com/dylanratcliffe/onceover/issues/287 ]()
+  [https://github.com/dylanratcliffe/onceover/issues/287] ( https://github.com/dylanratcliffe/onceover/issues/287 )
 
-  [ https://github.com/rodjek/rspec-puppet/issues/6911 ]()
+  [https://github.com/rodjek/rspec-puppet/issues/6911]( https://github.com/rodjek/rspec-puppet/issues/6911 )
 
-  Main Ticket which seems to address or fix the problem. [ https://tickets.puppetlabs.com/browse/MODULES-10638 ]()
+  Main Ticket which seems to address or fix the problem. [https://tickets.puppetlabs.com/browse/MODULES-10638]( https://tickets.puppetlabs.com/browse/MODULES-10638 )
 
   The Git Pull which seems to address or fix the problem and introduce the code into the
-  main branch. [ https://github.com/puppetlabs/puppetlabs-chocolatey/pull/254 ]()
+  main branch. [https://github.com/puppetlabs/puppetlabs-chocolatey/pull/254]( https://github.com/puppetlabs/puppetlabs-chocolatey/pull/254 )
 
 
 ## Setup
